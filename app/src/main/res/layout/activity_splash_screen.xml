@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:outlineAmbientShadowColor="@color/black"
+        android:layout_gravity="center"
+        android:id="@+id/img_mag"
+        android:src="@drawable/news_icon"/>
+
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="180dp"
+        android:layout_marginTop="420dp"
+        android:text="@string/nav_text"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+
+</FrameLayout>
